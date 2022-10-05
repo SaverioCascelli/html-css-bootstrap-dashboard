@@ -16,10 +16,11 @@ main , aside {
     height: calc(100vh - 70px );
 }
 
+
+/********** header ***********/
 .header-row{
     height: 40px;
 }
-
 
 .header-left img{
     max-height: 40px;
@@ -56,11 +57,34 @@ main , aside {
     padding-right: 30px;
 }
 
-.aside-top .icon{
-    margin-bottom: 20px;
-}
+/********** /header ***********/
+
+/********** aside ***********/
 
 aside{
     padding: 10px 0;
 }
+
+aside .icon{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.aside-top .icon i,
+.aside-bottom .icon i{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.aside-top .icon span{
+    font-size: 14px;
+}
+
+.wrapper .bg-black{
+    background-image: url("../img/sidebar-bg.png");
+}
+
+/********** /aside ***********/
+
 
