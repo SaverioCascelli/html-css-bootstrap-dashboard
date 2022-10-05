@@ -6,9 +6,16 @@
 
 header{
     height: 70px;
+    background-color: brown;
 }
 
-main , aside{
-    height: calc(100vh - 70px);
+main {
+    height: calc(100vh - 70px );
+    background-color: aqua;
+}
+
+aside{
+    height: calc(100vh - 70px );
+    background-color: blueviolet;
 }
 
