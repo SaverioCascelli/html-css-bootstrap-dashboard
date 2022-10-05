@@ -3,19 +3,56 @@
     border: 1px solid green;
 }
 
+img{
+    width: 100%;
+}
 
 header{
     height: 70px;
-    background-color: brown;
+    background-color: #f8f9fa;
 }
 
-main {
+main , aside {
     height: calc(100vh - 70px );
-    background-color: aqua;
 }
 
-aside{
-    height: calc(100vh - 70px );
-    background-color: blueviolet;
+.header-row{
+    height: 40px;
+}
+
+
+.header-left img{
+    max-height: 40px;
+    object-fit: contain;
+}
+
+.header-center .bi-search{
+    font-size: .8rem;
+}
+
+.header-center{
+    background-color: #e5e5e5;
+    border-radius: 3px;
+}
+
+.header-center .form-control{
+    transition: none;
+}
+
+.header-center .form-outline input{
+    border: 0;
+    background-color: transparent;
+}
+
+.header-right{
+    color: #5b5858;
+}
+
+.header-right .bi-bell-fill{
+    color: #ff8f00;
+}
+
+.header-right .d-none :nth-child(n){
+    padding-right: 30px;
 }
 
