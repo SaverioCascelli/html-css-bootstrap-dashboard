@@ -56,3 +56,11 @@ main , aside {
     padding-right: 30px;
 }
 
+.aside-top .icon{
+    margin-bottom: 20px;
+}
+
+aside{
+    padding: 10px 0;
+}
+
