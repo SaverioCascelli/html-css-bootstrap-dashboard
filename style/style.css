@@ -152,17 +152,6 @@ aside .icon{
     width: 22%;
 }
 
-
-
-
-.sc-modal{
+.offcanvas.offcanvas-end.sc-offcanvas{
     width: 80%;
-    margin-left: 100%;
-    transition: all 1s;
-    
-    
-}
-
-.sc-modal.show{
-    margin-left:20%;
 }
