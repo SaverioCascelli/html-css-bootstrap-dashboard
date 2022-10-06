@@ -34,6 +34,44 @@ main , aside {
     border-radius: 20px;
 }
 
+.sc-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 1rem;
+    color: white;
+    margin-right: 10px;
+}
+
+.sc-table {
+    font-size: .9rem;
+}
+
+
+.sc-table th , td{
+   text-align: center;
+}
+
+.sc-table th.sc-w-60{
+    text-align: left;
+}
+
+.sc-table thead{
+    border-bottom:1px solid black;
+}
+
+.sc-table a.btn{
+    padding: 0;
+    font-size: .7rem;
+    padding:0 4px;
+}
+
+.sc-fs-little{
+    font-size: .8rem;
+}
 
 /********** header ***********/
 .header-row{
@@ -106,3 +144,10 @@ aside .icon{
 /********** /aside ***********/
 
 
+.sc-w-60{
+    width: calc(60%);
+}
+
+.sc-w-22{
+    width: 22%;
+}
