@@ -151,3 +151,20 @@ aside .icon{
 .sc-w-22{
     width: 22%;
 }
+
+
+
+
+.sc-modal{
+    position: absolute;
+    left:1000px;
+    transition: all 1s;
+    transform: translate(2000px 0);
+    
+}
+
+.sc-modal.show{
+    left: 100px
+}
+
+
