@@ -156,15 +156,13 @@ aside .icon{
 
 
 .sc-modal{
-    position: absolute;
-    left:1000px;
+    width: 80%;
+    margin-left: 100%;
     transition: all 1s;
-    transform: translate(2000px 0);
+    
     
 }
 
 .sc-modal.show{
-    left: 100px
+    margin-left:20%;
 }
-
-
